@@ -1,12 +1,7 @@
 pipeline {
-  agent {
-    node {
-      label 'jenkins'
-    }
-
-  }
+  agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
         echo 'hello jenkins'
       }
